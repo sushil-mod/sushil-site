@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sushil-portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
     <h1>This is sushil:)</h1>
@@ -14,7 +15,7 @@
 </hr>
 
 <h2>@typograohy</h2>
-<h1> this is h1 heading</h1>
+<h1> this is  h1 heading</h1>
 <h2>this is h2 tag</h2>
 <p>this is normal text</p>
 <small>this is have tag "small" text</small>
@@ -23,21 +24,19 @@
 
 <h2>@container</h2>
 <h3>fluid container</h3>
-<div>this is fluid container it will go till end of the page</div>
+<div class="container">this is fluid container it will go till end of the page</div>
 <h3>center container</h3>
-<div>this is centred container it will go till the specified width</div>
+<div class="container container-center">this is centred container it will go till the specified width</div>
 
 <hr>
 
 <h2>@links</h2>
 
-    <a  href="/">Primary Link</a>
-    <a  href="/">Secondary Link</a>
+    <a class="link link-primary"  href="/">Primary Link</a>
+    <a class="link link-secondary"  href="/">Secondary Link</a>
 
 <hr>
-
-<hr>
-
+ 
 <h2>@lists</h2>
 
 <h3>unordered list</h3>
@@ -53,9 +52,9 @@
 <h3> unordered inline list</h3>
 
 <ul class="list-non-bullet">
-    <li >Inline Item One</li>
-    <li >Inline Item Two</li>
-    <li >Inline Item Three</li>
+    <li >Inline  One</li>
+    <li >Inline  Two</li>
+    <li >Inline  Three</li>
 </ul>
 
 <h3> reverse ordered list</h3>
@@ -69,17 +68,15 @@
 
 <h2>@nav</h2>
 
-<nav >
-    <div >iAmBrand</div>
-    <ul >
-        <li >
-            <a  href="/">home</a>
-        </li>
-        <li >
-            <a  href="/">products</a>
-        </li>
-        <li >
-            <a  href="/">about</a>
+<nav class="navigation container">
+    <div class="nav-batman">iambatman</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline" >
+            <a class="link link-active" href="/">ho-list-non-bullet nav-pillsi>
+        <li class="list-item-inline" >
+            <a class="link" href="/">servic-list-non-bullet nav-pillsi>
+        <li class="list-item-inline" >
+            <a class="link" href="/">about</a>
         </li>
     </ul>
 </nav>
