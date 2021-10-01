@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
 :root {
     --primary-color:#00BFA6;
     --off-white: #F3F4F6;
@@ -8,30 +8,29 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px
+    margin: 0px ;
 }
 
 hr {
     margin: 2rem 0rem;
 }
 
-/** spaces **/
 
 .margin-md {
-    margin: 2rem;
+    margin: 2rem 0rem;
 }
 
-/** container **/
 .container {
     padding: 0rem 1rem;
+    
 }
 
 .container-center {
     max-width: 600px;
+    width: 100%;
     margin: auto;
 }
 
-/** links **/
 .link {
     box-sizing: border-box;
     text-decoration: none;
@@ -43,8 +42,8 @@ hr {
     border-radius: 0.5rem;
     color: white;
     display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    max-width: 120px;
+    margin: 1rem ;
 }
 
 .link-secondary {
@@ -52,13 +51,11 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
     display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
+    max-width: 120px;
+    margin: 1rem ;
 }
 
-/** look into BEM naming convention for CSS **/
 
-/** lists **/
 
 .list-non-bullet {
     list-style: none;
@@ -70,16 +67,22 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-/** navigation **/
 
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
-.navigation .nav-brand {
+.nav-batman{
+    font-size: 60px;
+    font-family: 'Birthstone', cursive;
+}
+
+.navigation .nav-batman { 
+
     font-weight: bold;
 }
 
@@ -95,7 +98,7 @@ hr {
     font-weight: bold;
 }
 
-/** header **/
+
 
 .port {
     padding: 2rem;
@@ -105,7 +108,7 @@ hr {
 
 .port .port-img {
     max-width: 80%;
-    width: 350px;
+    width: 550px;
     display: block;
     margin: auto;
 }
@@ -120,12 +123,17 @@ hr {
     color: var(--primary-color);
 }
 
-/** sections **/
+
 
 .section {
     padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
-
+.section p{
+    padding: 0rem 0.5rem;
+}
 .section h1 {
     text-align: center;
 
@@ -135,7 +143,7 @@ hr {
     background-color: var(--off-white);
 }
 
-/** footers **/
+
 
 .footer {
     background-color: var(--primary-color);
@@ -143,6 +151,7 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .footer .link {
@@ -157,4 +166,43 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+.footer hr{
+    width: 20%;
+    margin: auto;
+}
 
+.project-container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.project-section {
+    margin: 2rem 0rem;
+}
+
+.project-section h3 {
+    margin-bottom: 0.2rem;
+}
+
+.project-section p {
+    text-align: justify;
+}
+
+.project-div {
+    box-sizing: border-box;
+    background-color:  #EDF2F5;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.project-div p {
+    margin-top: 0.5rem;
+}
+
+.project-div span {
+    padding: 0rem 0.5rem;
+    color:white;
+    background-color: #6B7280;
+    border-radius: 10px;
+}
