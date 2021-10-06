@@ -26,9 +26,17 @@ hr {
 }
 
 .container-center {
+    
     max-width: 600px;
     width: 100%;
     margin: auto;
+}
+
+.blog-container{
+    text-align: justify;
+}
+.blog-container p {
+    text-indent: 50px;
 }
 
 .link {
@@ -205,4 +213,11 @@ hr {
     color:white;
     background-color: #6B7280;
     border-radius: 10px;
+}
+.blog-list{
+    list-style: none;
+    box-sizing: border-box;
+    background-color:  #EDF2F5;
+    padding: 1rem;
+    border-radius: 10px; 
 }
